@@ -1,0 +1,83 @@
+.post{
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.post__image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post__text{
+    font-weight: normal;
+    padding: 0px 10px;
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.post__avatar{
+    margin-right: 10px;
+}
+
+.post__commentBox{
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.post__btn{
+    flex: 0;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    padding: auto 10px
+    /* width: 10rem; */
+}
+
+.post__comments{
+    padding: 10px;
+}
+
+.post__commentsCount{
+    color:#999;
+    padding: 2px 10px;
+}
+
+.post__likesCount{
+    color:rgb(0, 0, 0);
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+.like__red{
+    color: red;
+}
+
+.like__white{
+    color: black;
+}
+
+.post__username{
+    color: rgb(58, 58, 58);
+}
+
+.ig__heart{
+    margin: 10px 0px 10px 0px;
+    padding: 0;
+}
